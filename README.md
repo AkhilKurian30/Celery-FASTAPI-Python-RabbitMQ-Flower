@@ -16,7 +16,7 @@ Run application as we run normal FAstApi Application
     source v/bin/activate
 
     pip install -r package.txt
-    
+
     python run.py
 
 #Start Celery worker in other terminal
@@ -26,11 +26,11 @@ Run application as we run normal FAstApi Application
 #Start Flower monitoring dashboard in other terminal
     celery flower -A worker --broker:pyamqp://guest@localhost
 
-    http://127.0.0.1:5555/tasks => for flowe dashboard
+    http://127.0.0.1:5555/tasks => for flower dashboard
 
     
 
-#Queuing system used 
+#Queuing system used :: 
     RabbitMQ
 
 
