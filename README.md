@@ -45,15 +45,23 @@ After successfully login you should see RabbitMQ Home page
 Install RabbitMQ in Linux : https://www.youtube.com/watch?v=eazz-Je4HAA
 
 su - root
-password
-bash
-sudo apt-get update
-sudo apt-get install erlang
-sudo apt-get install rabbitmq-server
-sudo systemctl enable rabbitmq-server
-sudo systemctl start  rabbitmq-server
-sudo systemctl status  rabbitmq-server
-sudo rabbitmq-plugins enable rabbitmq_management
 
+password : 
+
+bash
+
+sudo apt-get update
+
+sudo apt-get install erlang
+
+sudo apt-get install rabbitmq-server
+
+sudo systemctl enable rabbitmq-server
+
+sudo systemctl start  rabbitmq-server
+
+sudo systemctl status  rabbitmq-server
+
+sudo rabbitmq-plugins enable rabbitmq_management
 
 best explanation :: https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html
