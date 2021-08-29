@@ -1,0 +1,4 @@
+fastapi==0.65.2
+uvicorn==0.13.4
+celery==4.4.7
+flower==0.9.7
